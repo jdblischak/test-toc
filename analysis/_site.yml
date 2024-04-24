@@ -1,7 +1,7 @@
-name: "test-toc"
+name: test-toc
 output_dir: ../docs
 navbar:
-  title: "test-toc"
+  title: test-toc
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fab fa-github
+    text: Source code
+    href: https://github.com/jdblischak/test-toc
 output:
   workflowr::wflow_html:
     toc: yes
