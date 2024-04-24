@@ -1,0 +1,21 @@
+---
+title: "toc"
+author: "John Blischak"
+date: "2024-04-24"
+output:
+  workflowr::wflow_html:
+              toc: true
+              toc_depth: 4
+editor_options:
+  chunk_output_type: console
+---
+
+## Introduction
+
+```{r}
+plot(1:10)
+```
+
+## Section
+
+### subsection
